@@ -1,1 +1,20 @@
+# Ignore system files (Mac and Windows)
+.DS_Store
+Thumbs.db
 
+# Ignore log files
+*.log
+
+# Ignore environment configuration files (if applicable)
+.env
+
+# Ignore build or dist directories (if you're using bundlers or compilers)
+build/
+dist/
+
+# Ignore IDE/editor-specific files
+.vscode/
+.idea/
+
+# Ignore node_modules/ (if you're using npm or Yarn for dependencies)
+node_modules/
